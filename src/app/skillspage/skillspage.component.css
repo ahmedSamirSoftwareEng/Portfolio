@@ -1,0 +1,54 @@
+.skills-section{
+    background-color: rgba(2, 2, 2, 0.726);
+    height: 100vh;
+}
+
+
+h1{
+    padding-top: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding: 3px;
+}
+
+
+.content{
+  margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.progress{
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+p{
+    padding: 5px;
+    color: white;
+}
+.progress-bar{
+    background-color: rgba(199, 196, 196, 0.781);
+}
+
+@media screen and (max-width: 768px){
+ .skills-section{
+     height: auto;
+ }
+ .para{
+     display: none;
+ }
+ .aside{
+     display: none;
+ }
+    .aside_myexperience{
+        width: 100%;
+    }
+    .content{
+        flex-direction: column;
+    }
+}
